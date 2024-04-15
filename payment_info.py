@@ -15,7 +15,13 @@ class payslips():
 
 symbioids = payslips("symbioids", 'no', 1000)
  
-albatros = payslips("albatros", "yes", 3000)
+albatros = payslips("albatros", "no", 3000)
 
 print(symbioids.status(), "\n",albatros.status())
+
+symbioids.pay()
+
+print("After payment")
+
+print(symbioids.status(), "\n", albatros.status())
         
