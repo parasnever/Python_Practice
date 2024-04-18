@@ -4,10 +4,8 @@
 # for i in locations:
 #     print(i)
 
+
 import calendar
 
-# leapday = calender.leapdays(2000, 2050)
-# print(leapday)
-
-is_it_leap = calender.isleap(2036)
-print(is_it_leap)
+print(calendar.leapdays(2020,2060))
+print(calendar.isleap(2036))
