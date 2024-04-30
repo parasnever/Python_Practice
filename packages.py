@@ -30,4 +30,5 @@ b = b.assign(new_values = b['Numbers'] *3)
 print(b)
 
 #NLTK
-
+import nltk
+from nltk.tol
